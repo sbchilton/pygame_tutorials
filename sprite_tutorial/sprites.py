@@ -9,8 +9,9 @@ SCREEN_HEIGHT = 500
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption('Spritesheets')
 
-sprite_sheet_image = pygame.image.load('doux.png').convert_alpha()
-sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_image)
+# Load the image here
+sprite_sheet_image = pygame.image.load('img/doux.png').convert_alpha()  
+sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_image)  # Pass the image
 
 BG = (50, 50, 50)
 BLACK = (0, 0, 0)
